@@ -1,0 +1,142 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'montserrat' , sans-serif;
+}
+
+nav {
+    min-height: 10vh;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-right: 27rem;
+}
+nav img {
+    height: 90px;
+    margin-right: 10px;
+}
+
+ ul {
+     display: flex;
+     align-items: center;
+ }
+ li {
+     padding: 0px 10px;
+ }
+
+a{
+    font-size: 1rem;
+    color:#000;
+ }
+ .active {
+     background-color: #000;
+     border-radius: 10px;
+     color: #fff;
+     padding: 2px 4px;
+ }
+
+
+ /* hero section */
+
+ .hero {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .intro-name {
+    text-align: left;
+     margin-right: 80px;
+     margin-left: 50px;
+ }
+
+ #intro-image {
+     height: 29rem;
+     margin-top: 40px;
+     margin-left: 180px;
+
+ }
+ .intro-name h1 {
+     padding: 9px;
+ }
+
+
+ .intro-name h3 {
+     padding: 7px;
+ }
+
+/* Contact */
+
+
+.form-section {
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.form-section form {
+    padding: 1rem 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 10px black;
+    border-radius: 2rem;
+}
+
+input,
+textarea {
+    margin: 1rem;
+}
+
+input textarea:focus {
+    outline: 2px solid black;
+}
+
+textarea {
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+form button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+
+}
+
+ /* footer section */
+
+.social-icon {
+    height: 40px;
+    padding: 0 20px ;
+}
+
+.love-icon {
+    height: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.social-link {
+    padding-bottom: 20px;
+}
